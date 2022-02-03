@@ -59,6 +59,10 @@ var arr=['a','b','c','d']
 // arr.splice(2,1) //from index 2 remove 1 element
 // console.log(arr)
 
-brr=arr.slice(2,4)
-console.log(brr)
+// brr=arr.slice(2,4)
+// console.log(brr)
 
+for (var i=0 ; i<10 ; i++) {
+    // alert(i)
+    console.log(i)
+}
