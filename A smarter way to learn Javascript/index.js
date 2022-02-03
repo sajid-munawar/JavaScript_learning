@@ -22,12 +22,30 @@
 // if (x==='yzm') {
 //     alert('correct')
 // }
-if ((4>5) && (5<6)) {
-    alert('less than')
-}
-else if (5!=5){
-    alert('equal')
-}
-else {
-    alert('else');
-}
+// if ((4>5) && (5<6)) {
+//     alert('less than')
+// }
+// else if (5!=5){
+//     alert('equal')
+// }
+// else {
+//     alert('else');
+// }
+
+// var arr;
+// arr=[1,2,3]
+// console.log(arr)
+
+var pets=['cat','dog','rat']
+console.log(pets)
+pets.pop()
+console.log(pets)
+
+pets.push('rat','snake')
+console.log(pets)
+
+pets.shift()
+console.log(pets)
+
+pets.unshift('kitty','cat')
+console.log(pets)
