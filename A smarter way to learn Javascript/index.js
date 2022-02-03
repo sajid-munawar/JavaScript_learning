@@ -36,16 +36,22 @@
 // arr=[1,2,3]
 // console.log(arr)
 
-var pets=['cat','dog','rat']
-console.log(pets)
-pets.pop()
-console.log(pets)
+// var pets=['cat','dog','rat']
+// console.log(pets)
+// pets.pop()
+// console.log(pets)
 
-pets.push('rat','snake')
-console.log(pets)
+// pets.push('rat','snake')
+// console.log(pets)
 
-pets.shift()
-console.log(pets)
+// pets.shift()
+// console.log(pets)
 
-pets.unshift('kitty','cat')
-console.log(pets)
+// pets.unshift('kitty','cat')
+// console.log(pets)
+
+
+var arr=['a','b','c','d']
+console.log(arr)
+arr.splice(1,2,'x','y','z')
+console.log(arr)
