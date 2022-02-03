@@ -51,7 +51,7 @@
 // console.log(pets)
 
 
-var arr=['a','b','c','d']
+var arr=['a','b','c','d'];
 // console.log(arr)
 // arr.splice(1,2,'x','y','z')
 // console.log(arr)
@@ -62,7 +62,8 @@ var arr=['a','b','c','d']
 // brr=arr.slice(2,4)
 // console.log(brr)
 
-for (var i=0 ; i<10 ; i++) {
-    // alert(i)
-    console.log(i)
-}
+// for (var i=0 ; i<10 ; i++) {
+//     // alert(i)
+//     console.log(i);
+// }
+console.log(arr.length);
