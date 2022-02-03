@@ -9,11 +9,16 @@
 // console.log(num)
 // console.log(anum)
 
-var num = 5 ;
-var anum= ++num ;
-console.log(num)
-console.log(anum)
+// var num = 5 ;
+// var anum= ++num ;
+// console.log(num)
+// console.log(anum)
 
 // alert("2 plus 2 equals " + 2 + 2);
 // console.log("2 plus 2 equals " + 2 + 2);      go through this
 // console.log( 2 + 2 +'2 plus 2 equals')
+
+var x=prompt('where do you live?')
+if (x=='yzm') {
+    alert('correct')
+}
