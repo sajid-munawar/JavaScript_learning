@@ -86,9 +86,19 @@
 // console.log(text)
 
 
-var text = "To be or not to be";
+var text = "To be or not to be!";
 // var segIndex = text.lastIndexOf("be");
 // console.log(segIndex)
 
 // console.log(text.charAt(0)) //find first character of string
-console.log(text.charAt(text.length-1)); //find last character of string
+// console.log(text.charAt(text.length-1)); //find last character of string
+
+for (var i = 0; i < text.length; i++) {
+if (text.charAt(i) === "!") {
+    console.log(i)
+    console.log(text.indexOf("!"))
+alert("Exclamation point found!");
+break;
+}
+}
+    
