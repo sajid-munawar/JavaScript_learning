@@ -252,15 +252,19 @@
 // var anum = 200 + parseFloat('50.9')
 // console.log(anum)
 
-let x = 1;
-switch (x) {
-  case 0:
-    text = "Off";
-    break;
-  case 1:
-    text = "On";
-    break;
-  default:
-    text = "No value found";
-}
-console.log(text)
+// let x = 1;
+// switch (x) {
+//   case 0:
+//     text = "Off";
+//     break;
+//   case 1:
+//     text = "On";
+//     break;
+//   default:
+//     text = "No value found";
+// }
+// console.log(text)
+
+var age = 19 ;
+var isAdult = (age<18) ? 'to young':'old enough' ;
+console.log(isAdult)
