@@ -239,15 +239,28 @@
 // console.log(anum*85+1)
 // console.log(Math.floor(anum*85+1))
 
-var anum = 200 + '50'
-console.log(anum)
+// var anum = 200 + '50'
+// console.log(anum)
 
-var anum = 200 + parseInt('50')
-console.log(anum)
+// var anum = 200 + parseInt('50')
+// console.log(anum)
 
-var anum = 200 + parseInt('50.9')
-console.log(anum)
+// var anum = 200 + parseInt('50.9')
+// console.log(anum)
 
 
-var anum = 200 + parseFloat('50.9')
-console.log(anum)
+// var anum = 200 + parseFloat('50.9')
+// console.log(anum)
+
+let x = 0;
+switch (x) {
+  case 0:
+    text = "Off";
+    break;
+  case 1:
+    text = "On";
+    break;
+  default:
+    text = "No value found";
+}
+console.log(text)
