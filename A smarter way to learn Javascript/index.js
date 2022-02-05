@@ -86,19 +86,24 @@
 // console.log(text)
 
 
-var text = "To be or not to be!";
+// var text = "To be or not to be!";
 // var segIndex = text.lastIndexOf("be");
 // console.log(segIndex)
 
 // console.log(text.charAt(0)) //find first character of string
 // console.log(text.charAt(text.length-1)); //find last character of string
 
-for (var i = 0; i < text.length; i++) {
-if (text.charAt(i) === "!") {
-    console.log(i)
-    console.log(text.indexOf("!"))
-alert("Exclamation point found!");
-break;
-}
-}
+// for (var i = 0; i < text.length; i++) {
+// if (text.charAt(i) === "!") {
+//     console.log(i)
+//     console.log(text.indexOf("!"))
+// alert("Exclamation point found!");
+// break;
+// }
+// }
     
+
+var sentense='BWP is a state.This is the cleanest state among all the others.'
+console.log(sentense)
+sentense=sentense.replace('state','province')
+console.log(sentense)
