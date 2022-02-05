@@ -103,7 +103,13 @@
 // }
     
 
+// var sentense='BWP is a state.This is the cleanest state among all the others.'
+// console.log(sentense)
+// sentense=sentense.replace('state','province')
+// console.log(sentense)
+
+
 var sentense='BWP is a state.This is the cleanest state among all the others.'
 console.log(sentense)
-sentense=sentense.replace('state','province')
+sentense=sentense.replace(/state/g,'province')
 console.log(sentense)
