@@ -310,7 +310,16 @@
 // };
 // myName('sajid')
 
-function sum(a,b){
-    console.log(a+b);
+// function sum(a,b){
+//     console.log(a+b);
+// }
+// sum(5,15);
+
+var result = confirm("Do you really want to leave this page?");
+console.log(result)
+if (result == true) {
+    alert("Thanks for visiting");
 }
-sum(5,15);
+else {
+    alert("Thanks for staying with us");
+}
