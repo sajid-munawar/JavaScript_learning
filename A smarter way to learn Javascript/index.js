@@ -265,6 +265,16 @@
 // }
 // console.log(text)
 
-var age = 19 ;
-var isAdult = (age<18) ? 'to young':'old enough' ;
-console.log(isAdult)
+// var age = 19 ;
+// var isAdult = (age<18) ? 'to young':'old enough' ;
+// console.log(isAdult)
+
+
+// while loop
+
+var i = 0 ;
+
+while (i<10){
+    console.log(i)
+    i++ ;
+}
