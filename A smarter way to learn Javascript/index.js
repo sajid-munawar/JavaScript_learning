@@ -305,7 +305,12 @@
 // }
 
 
-function myName(name){
-    console.log(name.toUpperCase());
-};
-myName('sajid')
+// function myName(name){
+//     console.log(name.toUpperCase());
+// };
+// myName('sajid')
+
+function sum(a,b){
+    console.log(a+b);
+}
+sum(5,15);
