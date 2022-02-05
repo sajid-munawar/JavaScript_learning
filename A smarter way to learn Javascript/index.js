@@ -252,7 +252,7 @@
 // var anum = 200 + parseFloat('50.9')
 // console.log(anum)
 
-let x = 0;
+let x = 1;
 switch (x) {
   case 0:
     text = "Off";
