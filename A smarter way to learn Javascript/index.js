@@ -109,7 +109,29 @@
 // console.log(sentense)
 
 
-var sentense='BWP is a state.This is the cleanest state among all the others.'
-console.log(sentense)
-sentense=sentense.replace(/state/g,'province')
-console.log(sentense)
+// var sentense='BWP is a state.This is the cleanest state among all the others.'
+// console.log(sentense)
+// sentense=sentense.replace(/state/g,'province')
+// console.log(sentense)
+
+var numb=Math.round(0.001)
+console.log(numb)
+var numb=Math.round(0.01)
+console.log(numb)
+var numb=Math.round(0.1)
+console.log(numb)
+var numb=Math.round(0.4)
+console.log(numb)
+var numb=Math.round(0.06)
+console.log(numb)
+var numb=Math.round(0.09)
+console.log(numb)
+var numb=Math.round(0.6)
+console.log(numb)
+var numb=Math.round(0.9)
+console.log(numb)
+var numb=Math.round(0.5)
+console.log(numb)
+
+// if the number will be greater than .5 it will be rounded to 1 otherwise it will be rounded to 0. 
+// 0.5 will be rounded to 1.
