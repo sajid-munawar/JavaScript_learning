@@ -233,8 +233,21 @@
 // var numb=Math.floor(-1.5)
 // console.log(numb)
 
-var anum=Math.random()
+// var anum=Math.random()
+// console.log(anum)
+// console.log(anum*85)
+// console.log(anum*85+1)
+// console.log(Math.floor(anum*85+1))
+
+var anum = 200 + '50'
 console.log(anum)
-console.log(anum*85)
-console.log(anum*85+1)
-console.log(Math.floor(anum*85+1))
+
+var anum = 200 + parseInt('50')
+console.log(anum)
+
+var anum = 200 + parseInt('50.9')
+console.log(anum)
+
+
+var anum = 200 + parseFloat('50.9')
+console.log(anum)
