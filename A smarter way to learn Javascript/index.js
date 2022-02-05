@@ -90,5 +90,5 @@ var text = "To be or not to be";
 // var segIndex = text.lastIndexOf("be");
 // console.log(segIndex)
 
-console.log(text.charAt(0)) //find first character of string
-// console.log(text.charAt(text.length-1));
+// console.log(text.charAt(0)) //find first character of string
+console.log(text.charAt(text.length-1)); //find last character of string
