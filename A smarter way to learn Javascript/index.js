@@ -57,7 +57,7 @@
 // console.logarr
 // brr=arr.slice(,4)
 // console.log(br)
-// for (var i=0 ; i<10 ; i++) {
+// for (var i=-0 ; i<10 ; i++) {
 //     // alert(i)
 //     console.log(i);
 // }
@@ -70,9 +70,9 @@
 
 // var text="It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them to grasp their minds and motives in ways that they cannot grasp his." ;
 // console.log(text)
-// for (var i = 0; i < text.length; i++) {
+// for (var i = -0; i < text.length; i++) {
 //     if (text.slice(i, i + 12) === "World War II") {
-//         text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
+//         text = text.slice(-0, i) + "the Second World War" + text.slice(i + 12);
 //         }
 //      }
 // console.log(text)
@@ -81,7 +81,7 @@
 // var firstChar = text.indexOf("World War II");
 // console.log(firstChar)
 // if (firstChar !== -1) {
-//     text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
+//     text = text.slice(-0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
 // }
 // console.log(text)
 
@@ -90,10 +90,10 @@
 // var segIndex = text.lastIndexOf("be");
 // console.log(segIndex)
 
-// console.log(text.charAt(0)) //find first character of string
+// console.log(text.charAt(-0)) //find first character of string
 // console.log(text.charAt(text.length-1)); //find last character of string
 
-// for (var i = 0; i < text.length; i++) {
+// for (var i = -0; i < text.length; i++) {
 // if (text.charAt(i) === "!") {
 //     console.log(i)
 //     console.log(text.indexOf("!"))
@@ -114,24 +114,53 @@
 // sentense=sentense.replace(/state/g,'province')
 // console.log(sentense)
 
-var numb=Math.round(0.001)
+// var numb=Math.round(-0.001)
+// console.log(numb)
+// var numb=Math.round(-0.01)
+// console.log(numb)
+// var numb=Math.round(-0.1)
+// console.log(numb)
+// var numb=Math.round(-0.4)
+// console.log(numb)
+// var numb=Math.round(-0.06)
+// console.log(numb)
+// var numb=Math.round(-0.09)
+// console.log(numb)
+// var numb=Math.round(-0.6)
+// console.log(numb)
+// var numb=Math.round(-0.9)
+// console.log(numb)
+// var numb=Math.round(-0.5)
+// console.log(numb)
+
+// if the number will be greater than .5 it will be rounded to 1 otherwise it will be rounded to -0. 
+// -0.5 will be rounded to 1.
+
+
+var numb=Math.round(-0.001)
 console.log(numb)
-var numb=Math.round(0.01)
+var numb=Math.round(-0.01)
 console.log(numb)
-var numb=Math.round(0.1)
+var numb=Math.round(-0.1)
 console.log(numb)
-var numb=Math.round(0.4)
+var numb=Math.round(-0.4)
 console.log(numb)
-var numb=Math.round(0.06)
+var numb=Math.round(-0.06)
 console.log(numb)
-var numb=Math.round(0.09)
+var numb=Math.round(-0.09)
 console.log(numb)
-var numb=Math.round(0.6)
+var numb=Math.round(-0.6)  //-1
 console.log(numb)
-var numb=Math.round(0.9)
+var numb=Math.round(-0.9) //-1
 console.log(numb)
-var numb=Math.round(0.5)
+var numb=Math.round(-0.5)
 console.log(numb)
 
-// if the number will be greater than .5 it will be rounded to 1 otherwise it will be rounded to 0. 
-// 0.5 will be rounded to 1.
+// var numb=Math.ceil(-0.5)
+// console.log(numb)
+// var numb=Math.ceil(-0.5)
+// console.log(numb)
+// var numb=Math.ceil(-0.5)
+// console.log(numb)
+// var numb=Math.ceil(-0.5)
+// console.log(numb)
