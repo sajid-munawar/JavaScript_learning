@@ -315,11 +315,16 @@
 // }
 // sum(5,15);
 
-var result = confirm("Do you really want to leave this page?");
-console.log(result)
-if (result == true) {
-    alert("Thanks for visiting");
-}
-else {
-    alert("Thanks for staying with us");
-}
+// var result = confirm("Do you really want to leave this page?");
+// console.log(result)
+// if (result == true) {
+//     alert("Thanks for visiting");
+// }
+// else {
+//     alert("Thanks for staying with us");
+// }
+
+var person = {
+    name: "John", age: 31, 
+    favColor: "green", height: 183
+   };
