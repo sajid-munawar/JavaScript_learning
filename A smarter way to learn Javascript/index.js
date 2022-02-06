@@ -328,3 +328,9 @@ var person = {
     name: "John", age: 31, 
     favColor: "green", height: 183
    };
+// console.log(person.age)
+// console.log(person.height)
+
+var p1 = person ;
+p1.age = 50 ;
+console.log(p1.favColor.length)
