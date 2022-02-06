@@ -345,4 +345,7 @@ function person (name,age,favColor){
 }
 
 var p1=new person('Sajid',24,'green')
-console.log(p1.age)
+// console.log(p1.age)
+
+// document.write(p1.name)
+document.write(p1['name'])
