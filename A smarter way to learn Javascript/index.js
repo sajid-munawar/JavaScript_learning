@@ -324,13 +324,25 @@
 //     alert("Thanks for staying with us");
 // }
 
-var person = {
-    name: "John", age: 31, 
-    favColor: "green", height: 183
-   };
-// console.log(person.age)
-// console.log(person.height)
+// var person = {
+//     name: "John", age: 31, 
+//     favColor: "green", height: 183 
 
-var p1 = person ;
-p1.age = 50 ;
-console.log(p1.favColor.length)
+//    };
+// console.log(person.age)
+// // console.log(person.height)
+
+// var p1 = person ;
+// p1.age = 50 ;
+// console.log(p1.favColor.length)
+
+// document.write('This is person')
+
+function person (name,age,favColor){
+    this.name=name;
+    this.age=age;
+    this.favColor=favColor;
+}
+
+var p1=new person('Sajid',24,'green')
+console.log(p1.age)
