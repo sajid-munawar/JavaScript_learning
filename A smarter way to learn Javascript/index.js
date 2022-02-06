@@ -367,17 +367,35 @@
 // multi(5,6);
 
 
+// function person (name,age,favColor){
+//     this.name=name;
+//     this.age=age;
+//     this.favColor=favColor;
+//     this.changeAge=function(age){
+//         this.age=age;
+//     };
+// }
+// p1 = new person('Sajid',23,'Red');
+// document.write(p1.age);
+// p1.changeAge(24);
+// document.write(p1.age);
+
+
 function person (name,age,favColor){
     this.name=name;
     this.age=age;
     this.favColor=favColor;
+    this.yearOfbirth=bornYear;
     this.changeAge=function(age){
         this.age=age;
     };
+function bornYear(){
+    return 2022-this.age;
+    }
 }
-p1 = new person('Sajid',23,'Red');
-document.write(p1.age);
-p1.changeAge(24);
+
+p1 = new person('Sajid',24,'Red');
 document.write(p1.age);
 
-console.log(p1.bornYear)
+
+console.log(p1.yearOfbirth())
