@@ -338,14 +338,19 @@
 
 // document.write('This is person')
 
-function person (name,age,favColor){
-    this.name=name;
-    this.age=age;
-    this.favColor=favColor;
-}
+// function person (name,age,favColor){
+//     this.name=name;
+//     this.age=age;
+//     this.favColor=favColor;
+// }
 
-var p1=new person('Sajid',24,'green')
+// var p1=new person('Sajid',24,'green')
 // console.log(p1.age)
 
 // document.write(p1.name)
-document.write(p1['name'])
+// document.write(p1['name'])
+
+var person={name:'sajid',age:24}
+document.write(person.age)
+
+person.age = 25 ; //updated
