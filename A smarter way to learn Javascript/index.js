@@ -380,22 +380,33 @@
 // p1.changeAge(24);
 // document.write(p1.age);
 
+                                          //important
+// function person (name,age,favColor){
+//     this.name=name;
+//     this.age=age;
+//     this.favColor=favColor;
+//     this.yearOfbirth=bornYear;
+//     this.changeAge=function(age){
+//         this.age=age;
+//     };
+// function bornYear(){
+//     return 2022-this.age;
+//     }
+// }
 
-function person (name,age,favColor){
-    this.name=name;
-    this.age=age;
-    this.favColor=favColor;
-    this.yearOfbirth=bornYear;
-    this.changeAge=function(age){
-        this.age=age;
-    };
-function bornYear(){
-    return 2022-this.age;
-    }
-}
-
-p1 = new person('Sajid',24,'Red');
-document.write(p1.age);
+// p1 = new person('Sajid',24,'Red');
+// document.write(p1.age);
 
 
-console.log(p1.yearOfbirth())
+// console.log(p1.yearOfbirth())
+
+// var courses=['html','css','js']
+// console.log(courses[0])
+
+// var courses1=new Array ('html','css','js')
+// console.log(courses1[0])
+
+var arr= new Array(3) ;
+arr[0]='html' ;
+arr[4]='html' ;
+console.log(arr) ;
