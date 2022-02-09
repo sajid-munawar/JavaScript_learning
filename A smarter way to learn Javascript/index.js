@@ -403,10 +403,19 @@
 // var courses=['html','css','js']
 // console.log(courses[0])
 
-// var courses1=new Array ('html','css','js')
+// var courses1=new Array ('html','css','js') 
 // console.log(courses1[0])
 
-var arr= new Array(3) ;
-arr[0]='html' ;
-arr[4]='html' ;
-console.log(arr) ;
+
+
+// new Array(n) create n numbers empty array
+// var arr= new Array(3) ;
+// arr[0]='html' ;
+// arr[4]='html' ;
+// console.log(arr) ;
+
+var c1=['html','css'] ;
+var c2=['js'] ;
+var courses=c1.concat(c2);
+console.log(courses) ;
+document.write(courses)
