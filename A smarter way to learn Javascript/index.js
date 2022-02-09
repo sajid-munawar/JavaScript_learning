@@ -437,4 +437,14 @@
 // console.log(findMax(arr));
 
 // random Number generator
-document.write(Math.ceil(Math.random()*50)) ;              
+// document.write(Math.ceil(Math.random()*50)) ; 
+
+// var n=prompt("Please enter a number to calculate square root") ;
+
+// alert(Math.sqrt(n));
+
+// function myalert(){
+//     alert('Hi') ;
+// };
+// setInterval(myalert,3000) ; //Write the name of the function without parentheses when passing it into the setInterval method.
+// clearInterval(10000);
