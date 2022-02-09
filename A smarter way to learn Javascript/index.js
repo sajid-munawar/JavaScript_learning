@@ -448,3 +448,5 @@
 // };
 // setInterval(myalert,3000) ; //Write the name of the function without parentheses when passing it into the setInterval method.
 // clearInterval(10000);
+var d = new Date();
+document.write(d)
