@@ -414,8 +414,10 @@
 // arr[4]='html' ;
 // console.log(arr) ;
 
-var c1=['html','css'] ;
-var c2=['js'] ;
-var courses=c1.concat(c2);
-console.log(courses) ;
-document.write(courses)
+// var c1=['html','css'] ;
+// var c2=['js'] ;
+// var courses=c1.concat(c2);
+// console.log(courses) ;
+// document.write(courses) ;
+
+document.write(Math.PI)
