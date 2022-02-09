@@ -421,17 +421,20 @@
 // document.write(courses) ;
 
 // document.write(Math.E)
-var arr=[1,2,37,4,5,6,7,8,9] ;
+// var arr=[1,2,37,4,5,6,7,8,9] ;
 // console.log(arr.slice(0,))
-// document.write(Math.max(arr.slice(0,)))
+// document.write(Math.max(...arr))
 
-function findMax(arr){
-    var maxNum=0 ;
-    for (var i=0 ; i<arr.length ;i++){
-        if (arr[i]>maxNum) {
-            maxNum=arr[i]
-        };
-    };
-    return maxNum;
-};
-console.log(findMax(arr));
+// function findMax(arr){
+//     var maxNum=0 ;
+//     for (var i=0 ; i<arr.length ;i++){
+//         if (arr[i]>maxNum) {
+//             maxNum=arr[i]
+//         };
+//     };
+//     return maxNum;
+// };
+// console.log(findMax(arr));
+
+// random Number generator
+document.write(Math.ceil(Math.random()*50)) ;              
