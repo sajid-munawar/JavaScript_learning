@@ -456,12 +456,24 @@
 
 // document.write(d.getMonth()) ;
 
-function printTime() {
-    var d = new Date( );
-    var hours = d. getHours( ) ;
-    var mins = d. getMinutes( ) ;
+// function printTime() {
+//     var d = new Date( );
+//     var hours = d. getHours( ) ;
+//     var mins = d. getMinutes( ) ;
     
-    var secs = d. getSeconds( ) ;
-    document . body . innerHTML = hours+":"+mins+": "+secs;
-};
-setInterval (printTime, 1000) ;
+//     var secs = d. getSeconds( ) ;
+//     document . body . innerHTML = hours+":"+mins+": "+secs;
+// };
+// setInterval (printTime, 1000) ;
+
+
+// var arr=[1,2,37,4,5,6,7,8,9] ;
+// console.log(arr[2]);
+// var a=5 ;
+// document.body.innerHTML=a ;
+
+// var elem=document.getElementById('demo') ;
+// elem.innerHTML='Hello world';
+
+var elem = document.getElementById("demo");
+elem.innerHTML = "Hello World!";
