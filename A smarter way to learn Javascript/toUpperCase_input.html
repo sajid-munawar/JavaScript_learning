@@ -8,12 +8,21 @@
 </head>
 <body>
     <input type="text" id="name" onchange="change( )">
+    <button id="demo" >start</button>
     <script>
     function change( ) {
     
     var x = document . getElementById( "name" ) ;
     x. value= x. value. toUpperCase( ) ;
     }
+    // 
+    function randm(){
+        alert(Math.ceil(Math.random()*10));
+    }
+
+    var d=document.getElementById('demo')
+    d.addEventListener('click',randm);
+
      </script>
     
 </body>
