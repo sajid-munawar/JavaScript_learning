@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #container {
+            width: 500px;
+            height: 500px;
+            background-color: green;
+            position: relative;
+        }
+        #box {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+        }
+        button {
+            width: 250px;
+        }
+        #restart {
+            margin-top: 10px;
+            display: block;
+            width: 500px;
+        }
+    </style>
+
+<div id="container">
+    <div id="box"></div>
+    </div>
+    <button onclick="setInterval(move,10 )">Move</button>
+
+    <button onclick="clearInterval(t)">Stop</button>
+    <button id="restart" onclick="window.location.reload()">Restart</button>
+    <script>
+        var pos=0 ;
+        var box=document.getElementById('box')
+        function move(){
+            if (pos>=450){
+                clearInterval(t);
+            }
+            else {
+
+                pos += 1 ;
+                box.style.left=pos+'px' ;  
+            }
+                
+        }
+    var t = setInterval(move,10 )
+    </script>
+</body>
+</html>
