@@ -448,5 +448,20 @@
 // };
 // setInterval(myalert,3000) ; //Write the name of the function without parentheses when passing it into the setInterval method.
 // clearInterval(10000);
-var d = new Date();
-document.write(d)
+// var d = new Date();
+// document.write(d);
+
+// var d = new Date('2020 2 dec 10:40');
+// // document.write(d) ;
+
+// document.write(d.getMonth()) ;
+
+function printTime() {
+    var d = new Date( );
+    var hours = d. getHours( ) ;
+    var mins = d. getMinutes( ) ;
+    
+    var secs = d. getSeconds( ) ;
+    document . body . innerHTML = hours+":"+mins+": "+secs;
+};
+setInterval (printTime, 1000) ;
