@@ -8,6 +8,21 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <div id="demo"></div>
+    <div id="demo" ></div>
+    <p>hi</p>
+    <p>hello</p>
+    <p>hi</p>
+    <script>
+
+var elem = document.getElementById("demo");
+
+elem.style.color='red'
+elem.innerHTML = "Hello World!";
+    var arr = document.getElementsByTagName("p");
+    for (var x = 0; x < arr.length; x++) {
+      arr[x].innerHTML = "Hi there";
+    }
+
+    </script>
 </body>
 </html>

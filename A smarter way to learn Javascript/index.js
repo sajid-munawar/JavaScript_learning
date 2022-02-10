@@ -475,5 +475,10 @@
 // var elem=document.getElementById('demo') ;
 // elem.innerHTML='Hello world';
 
-var elem = document.getElementById("demo");
+var elem = document.body.getElementById("demo");
 elem.innerHTML = "Hello World!";
+
+var arr = document.getElementsByTagName("p");
+for (var x = 0; x < arr.length; x++) {
+  arr[x].innerHTML = "Hi there";
+}
