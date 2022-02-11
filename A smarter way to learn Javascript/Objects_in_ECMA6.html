@@ -10,23 +10,78 @@
 
     <script>
 
-        let tree = {
-            height : 20 ,
-            color : 'green',
-            grow() {
-                this.height +=2 ;
-            }
-        };
-console.log(tree.height);
-tree.grow() ;
-console.log(tree.height);
+//         let tree = {
+//             height : 20 ,
+//             color : 'green',
+//             grow() {
+//                 this.height +=2 ;
+//             }
+//         };
+// console.log(tree.height);
+// tree.grow() ;
+// console.log(tree.height);
+
+// let height = 5 ;
+// let health = 100 ;
+
+// let athlete = {
+//     height,
+//     health 
+// }
+// console.log(athlete.health) ;
+
+
+//                           Computed Property Names
 
 
 
+// var prop = 'name' ;
+// var height = 'height' ;
+
+// var user = {
+//     [prop]:'Sajid' ,
+//     [height]: 700 
+
+// } ;
+
+// console.log(user)
+
+// for( let a in user){
+//     console.log(a)
+// } ;
+
+// var i= 0;
+
+// var a = {
+//     ['foo'+ ++i]:i,
+//     ['foo'+ ++i]:i,
+//     ['foo'+ ++i]:i
+    
+// }
+// console.log(a)
+// console.log(i)
+let person = {
+name: 'Jack',
+age: 18,
+sex: 'male'
+};
+
+let student = {
+name : 'Bob' ,
+age: 20,
+xp: '2'
+}
+
+var newStudent = Object.assign( {}, person,student );
+
+console.log(newStudent.name)
 
 
+var newStudent = Object.assign( {},student, person );
+console.log(newStudent.name)
 
-
+var newStudent = Object.assign( {}, person, {name:'sajid'} );
+console.log(newStudent.name)
 
 
 
