@@ -8,14 +8,52 @@
 </head>
 <body>
     <script>
-        function* idMaker(){
-            let index= 0 ;
-            while(index<5){
-                yield index++ ;
-            }
-        }
-        var gen = idMaker() ;
-        console.log(gen.next().value)
+    //     function* idMaker(){
+    //         let index= 0 ;
+    //         while(index<5){
+    //             yield index++ ;
+    //         }
+    //     }
+    //     var gen = idMaker() ;
+    //     console.log(gen.next().value)
+        
+    //     const arr = ['0','4','9' , 'c', '16'] ;
+    //     const my_obj = {
+    //         [Symbol. iterator]: function*() {
+    //         for(let index of arr) {
+    //         yield '${index}';
+    //         }
+    //     }
+    // };
+    // const all = [...my_obj ]
+    //     .map(i => parseInt(i, 10))
+    //     .map(Math. sqrt )
+    //     .filter((i) => i < 5)
+    //     .reduce((i, d) => i + d);
+    // console. log(all);
+
+        
+    // lib/math.js
+// export let sum = (x, y) => { return x + y; }
+// export let pi = 3.14;
+
+// // app.js
+// import * as math from "lib/math"
+// console.log(`2p = + ${math.sum(math.pi, math.pi)}`)    
+
+console.log('sajid'.repeat(3))
+
+
+
+
+
+
+
+
+
+
+
+
     </script>
 </body>
 </html>
