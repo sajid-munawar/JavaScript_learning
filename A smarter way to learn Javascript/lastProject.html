@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Add {
+            constructor(...words) {
+            this.words = words;
+            // console.log(words.join('$')) 
+            // console.log(` $${words.join('$')}$`)
+            // this.print=print;
+  } print(){
+  console.log('$' + this.words.join('$') + '$')
+    // console.log("$"+ this.words.join("$")+"$")
+
+
+  }
+}
+
+var x = new Add("hehe", "hoho", "haha", "hihi", "huhu");
+var y = new Add("this", "is", "awesome");
+var z = new Add("lorem", "ipsum", "dolor", "sit", "amet", ",", "consectetur", "adipiscing", "elit");
+x.print();
+y.print();
+z.print();
+    </script>
+</body>
+</html>
