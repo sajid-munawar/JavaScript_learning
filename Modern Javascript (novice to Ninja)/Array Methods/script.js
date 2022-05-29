@@ -49,13 +49,20 @@
 
 // Reduce 
 
+// const scores = [10, 29, 25, 15, 45, 70, 92, 44]
+
+// const dubl = scores.reduce((acc, curr) => {
+//     if (curr > 25) {
+//         acc++;
+//     };
+//     return acc
+// },0)
+
+// console.log(dubl);
+
+// Find 
+
 const scores = [10, 29, 25, 15, 45, 70, 92, 44]
 
-const dubl = scores.reduce((acc, curr) => {
-    if (curr > 25) {
-        acc++;
-    };
-    return acc
-},0)
-
-console.log(dubl);
+const firstHighScore = scores.find(score => score > 50);
+console.log(firstHighScore);
