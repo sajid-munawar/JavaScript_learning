@@ -22,20 +22,27 @@
 
 // Filter 
 
+// const scores = [10, 29, 25, 15, 45, 70, 92, 44]
+
+// const filteredScores = scores.filter(score => {
+//     return score > 30;
+// });
+
+// console.log(filteredScores);
+
+// const users = [
+//   { name: "shaun", premium: true },
+//   { name: "mario", premium: false },
+//   { name: "ryu", premium: false },
+//   { name: "chun-li", premium: true },
+// ];
+
+// const premiumUsers = users.filter(user => user.premium);
+// console.log(premiumUsers);
+
+// Map
+
 const scores = [10, 29, 25, 15, 45, 70, 92, 44]
 
-const filteredScores = scores.filter(score => {
-    return score > 30;
-});
-
-console.log(filteredScores);
-
-const users = [
-  { name: "shaun", premium: true },
-  { name: "mario", premium: false },
-  { name: "ryu", premium: false },
-  { name: "chun-li", premium: true },
-];
-
-const premiumUsers = users.filter(user => user.premium);
-console.log(premiumUsers);
+const newScores = scores.map(score => score * 2)
+console.log(newScores);
