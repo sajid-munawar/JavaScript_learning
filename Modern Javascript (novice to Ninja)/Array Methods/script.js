@@ -62,7 +62,13 @@
 
 // Find 
 
-const scores = [10, 29, 25, 15, 45, 70, 92, 44]
+// const scores = [10, 29, 25, 15, 45, 70, 92, 44]
 
-const firstHighScore = scores.find(score => score > 50);
-console.log(firstHighScore);
+// const firstHighScore = scores.find(score => score > 50);
+// console.log(firstHighScore);
+
+const scores = [10, 29, 25, 15, 5, 70, 92, 44]
+
+
+scores.sort((a,b)=> a-b);
+console.log(scores);
