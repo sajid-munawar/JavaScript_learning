@@ -42,7 +42,20 @@
 
 // Map
 
+// const scores = [10, 29, 25, 15, 45, 70, 92, 44]
+
+// const newScores = scores.map(score => score * 2)
+// console.log(newScores);
+
+// Reduce 
+
 const scores = [10, 29, 25, 15, 45, 70, 92, 44]
 
-const newScores = scores.map(score => score * 2)
-console.log(newScores);
+const dubl = scores.reduce((acc, curr) => {
+    if (curr > 25) {
+        acc++;
+    };
+    return acc
+},0)
+
+console.log(dubl);
