@@ -9,6 +9,8 @@ ul.addEventListener('click', (e) => {
     }
 })
 
+// localStorage.setItem(ul)
+
 function generateTodo(todo) {
     const html = `<li>${todo} <span>button</span></li>`;
     ul.innerHTML+=html
@@ -16,8 +18,8 @@ function generateTodo(todo) {
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()
-    console.log();
     const todo = form.add.value;
     generateTodo(todo)
+    localStorage.setItem('ul',JSON.stringify(ul.innerHTML));
     form.reset()
 })
