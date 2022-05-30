@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.5rem;
+}
+
+ul {
+    width: 400px;
+    list-style: none;
+}
+
+li {
+    background: rgba(0,0,0,0.2);
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
