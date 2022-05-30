@@ -21,8 +21,10 @@ function generateTodo(todo) {
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()
-    const todo = form.add.value;
-    generateTodo(todo)
-    localStorage.setItem('ul',JSON.stringify(ul.innerHTML));
-    form.reset()
+    const todo = form.add.value.trim();
+    if (todo.length) {        
+        generateTodo(todo)
+        localStorage.setItem('ul',JSON.stringify(ul.innerHTML));
+        form.reset()
+    }
 })
