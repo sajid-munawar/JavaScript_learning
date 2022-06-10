@@ -10,7 +10,7 @@ ul.addEventListener('click', (e) => {
 })
 
 console.log();
-ul.innerHTML += JSON.parse(localStorage.getItem("ul"));
+ul.innerHTML= JSON.parse(localStorage.getItem("ul"));
 
 // localStorage.setItem(ul)
 
